@@ -1,0 +1,7 @@
+body {
+	padding-top: 72px;
+}
+
+.navbar-nav.navbar-right:last-child {
+	margin-right: 0 !important;
+}
