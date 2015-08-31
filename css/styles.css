@@ -5,3 +5,22 @@ body {
 .navbar-nav.navbar-right:last-child {
 	margin-right: 0 !important;
 }
+
+.list-group-item > div {
+    display: inline-block;
+}
+
+.list-group-item .fa-stack {
+    position: relative;
+    left: -3px;
+    top: 1px;
+    vertical-align: 0;
+}
+
+.list-group-item h4 {
+    margin-bottom: 0;
+}
+
+.list-group-item .present {
+    color: #337ab7;
+}
