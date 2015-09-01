@@ -24,3 +24,35 @@ body {
 .list-group-item .present {
     color: #337ab7;
 }
+
+.meeting {
+    color: rgb(51, 51, 51);
+}
+
+.meeting:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.meeting:hover .panel-body,
+.meeting:hover .panel-footer {
+    background-color: #eee;
+}
+
+.meeting .panel-body h4 {
+    margin-top: 0;
+}
+
+.meeting .panel-footer ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.meeting .panel-footer ul .fa {
+    color: #999;
+}
+
+.meeting .panel-footer ul span {
+    color: #aaa;
+}
