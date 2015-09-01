@@ -1,0 +1,91 @@
+body {
+	padding-top: 72px;
+}
+
+.navbar-nav.navbar-right:last-child {
+	margin-right: 0 !important;
+}
+
+.list-group-item > div {
+    display: inline-block;
+}
+
+.list-group-item .fa-stack {
+    position: relative;
+    left: -3px;
+    top: 1px;
+    vertical-align: 0;
+}
+
+.list-group-item h4 {
+    margin-bottom: 0;
+}
+
+.list-group-item .present {
+    color: #337ab7;
+}
+
+.member,
+.meeting {
+    color: rgb(51, 51, 51);
+}
+
+.member:hover,
+.meeting:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.member:hover .panel-body,
+.member:hover .panel-footer,
+.meeting:hover .panel-body,
+.meeting:hover .panel-footer {
+    background-color: #eee;
+}
+
+.member .panel-body h4,
+.meeting .panel-body h4 {
+    margin-top: 0;
+}
+
+.member .panel-body span {
+    margin-right: 20px;
+}
+
+.member .panel-footer ul,
+.meeting .panel-footer ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.member .panel-footer ul .fa,
+.meeting .panel-footer ul .fa {
+    color: #999;
+}
+
+.member .panel-footer ul span,
+.meeting .panel-footer ul span {
+    color: #aaa;
+}
+
+#login-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    margin-left: -150px;
+    margin-top: -170px;
+    color: #777;
+}
+
+#login-box h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.forgot-password {
+    display: block;
+    margin: 15px 0 10px;
+    text-align: center;
+}
