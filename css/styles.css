@@ -37,7 +37,7 @@ body {
 }
 
 .member:hover .panel-body,
-.member:hover .panel-footer
+.member:hover .panel-footer,
 .meeting:hover .panel-body,
 .meeting:hover .panel-footer {
     background-color: #eee;
